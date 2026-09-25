@@ -4,7 +4,7 @@
 Effective inventory management requires categorizing stock keeping units (SKUs) based on their economic impact. This project applies the **Pareto Principle (80/20 Rule)** to an industrial inventory portfolio, classifying items into strategic tiers (Class A, B, and C) based on Annual Usage Value to guide capital allocation, order policies, and supply chain control mechanisms.
 
 ## Methodology & Classification Rules
-- **Annual Usage Value ($):** $\text{Annual Demand (Units)} \times \text{Unit Cost (\$)}$
+- **Annual Usage Value:** `Annual Demand (Units) × Unit Cost ($)`
 - **Cumulative Percentage (%):** Running total of usage value divided by total portfolio inventory value ($212,210).
 - **Classification Thresholds:**
   - **Class A (Strategic / High-Value):** Top ~75% of cumulative value (Strict control, continuous review, JIT replenishment).
